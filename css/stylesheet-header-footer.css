@@ -1,0 +1,379 @@
+@font-face {
+    font-family: "Akshar";
+    src: url("/fonts/Akshar-VariableFont_wght.ttf")
+
+}
+
+body { 
+    background-color: #F9F8F8;
+    padding: 3%;
+    padding: auto;
+    font-family: "Akshar";
+    color: #000000;
+}
+
+.positioned-container {
+    position: relative;
+}
+
+.top-left-nav { 
+    font-size: 1.25em;
+    font-weight: 500;
+    padding: 10px 10px 10px;
+}
+
+.top-right-nav {  
+    float: right;
+    
+}
+
+.logo {
+    max-width:220px;
+    margin-left: auto; 
+    margin-right: auto;
+    display:block;
+   
+}
+.searchbar-floated {
+    float: left;
+}
+    
+    
+.main-nav-position{
+    text-align: center;
+    padding: 10px 60px 30px 40px;
+}
+
+.main-nav {   
+    font-size: 1.5em;    
+    font-weight: 400; 
+    padding: 10px 20px 10px;   
+}
+
+/* Links */
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Akshar";
+}
+
+.current {
+    font-weight: bold; 
+}
+
+#menu-checkbox {
+    display:none;
+}
+
+
+
+/* footer */
+
+.position {
+    float: left;
+    padding: 60px;
+    text-align: center;
+}
+
+section::after {
+    content:'';
+    clear: both;
+    display: table;
+}
+
+.position-bottom-logo{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+
+.text {
+    font-weight: bold;
+    color: black;
+}
+
+.dis-block {
+    display: block;
+}
+
+
+/* from test page */
+
+/*
+
+* {
+    margin:0; padding:0; border:0; box-sizing: border-box;
+}
+
+header footer{ 
+    background-color: #F9F8F8;
+    border:10px solid #F9F8F8;
+    min-height: 100vh;
+    font-family: "Akshar";
+    color: #000000;
+    max-width: 95%;
+}
+
+@font-face {
+    font-family: "Akshar";
+    src: url("/fonts/Akshar-VariableFont_wght.ttf")
+
+}
+
+.positioned-container {
+    position: relative;
+    display: flex;  
+    align-items: flex-end; 
+}
+
+.positioned-container-1 {
+    display: flex; 
+}
+
+.hamburger-icon {
+}
+
+nav, #menu-checkbox{
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;  
+}
+
+nav {
+    background-color: #7A9B76;
+    top: 100px;
+    left: 0px; 
+}
+
+nav a {
+        display: block;
+        color:#000000;
+        padding: 10px 20px; 
+        font-size: 1.5em; 
+    }
+
+@media only screen and (min-width 601px) {
+    nav {
+        display: block;
+        position: static;
+        text-align: center;
+        padding: 10px 60px 30px 40px;
+    }
+
+    .hamburger-icon {
+        display: none; 
+    }
+
+    nav a {
+        display: inline-block;
+        font-size: 1.5em;    
+        font-weight: 400; 
+        padding: 10px 20px 10px;
+    }
+
+    .top-left-nav { 
+        font-size: 1.25em;
+        font-weight: 500;
+        padding: 10px 10px 10px;
+    }
+    
+    .top-right-nav {  
+        float: right;
+    }
+    
+    .logo {
+        max-width:220px;
+        margin-left: auto; 
+        margin-right: auto;
+        display:block;
+    }
+
+    .searchbar-floated {
+        float: left;
+    } 
+
+}
+
+.logo {
+    max-width:220px;
+    margin:0;
+    padding:0;
+    display:block;
+   
+}
+
+.logo-mobile {
+    max-width: 130px;
+    padding: 10px 0px 20px 10px;
+}
+
+.icon-size {
+    min-width: 80;
+    max-width: 200px;
+    padding: 35px 5px 10px 5px; 
+}
+
+.searchbar-icon {
+    padding: 35px 1px 10px 20px; 
+}
+
+/* main */
+
+/*
+
+h1,h2,h3,h4,h5,h6,p {
+    font-family: "Akshar";
+}
+
+.main-image-mobile {
+    max-width: 100%; 
+    margin-bottom: 10px;
+}
+
+h1 {
+    background-color: rgb(255 255 255 / 50%);
+    font-size: 2em;
+    font-weight: 400;
+    color: #0A3641;
+    padding: 20px 20px 20px 20px;
+}    
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/*
+.item {
+    flex: 1;
+}
+*/
+
+/*
+
+.spring-collection-image {
+        max-width: 200px; 
+ }
+    
+.positioned-new {
+        position: absolute;
+        top: 8px;
+        left: 65px;
+        font-family: "akshar";
+        color: rgb(10 54 65 /50%);
+        font-size: 1.5em;
+        font-weight: 800;
+        margin: 0;
+}
+.positioned-sc {
+        position: absolute;
+        top: 8px;
+        left: 5px;
+        font-size: 1em;
+        font-weight: 600;
+        color: #06232A;
+        padding: 10px;
+        background-color: rgb(255 255 255 /50%);
+        background-blend-mode:normal;
+        padding: 33px 20px 0px 20px;
+    
+}
+    
+    .greenbox {
+    background-color:#7A9B76;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+
+    h2 {
+        padding: 20px 20px 5px 20px;
+        font-size: 1.6em;
+        font-weight: 500;
+        
+    }
+    
+    h5 {
+        padding: 5px 10px 10px 10px;
+        font-size: 1.5em;
+        font-weight: 800; 
+        margin: 0px;
+    }
+    
+    .up-text {
+        padding: 0px 10px 0px 10px;
+        font-size: 1em;
+        font-weight: 500;
+        margin: 0px;
+    }
+    
+    .bottom-text {
+        padding: 0px 10px 14px 10px;
+        margin: 0px;
+    }
+
+/* product slider */
+
+/*
+    .slider {
+        width:25%; 
+        height: 100%;
+        display: flex;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+        background-color: #F9F8F8;
+    }
+    
+    .slide {
+        width: 200px;
+        flex-shrink: 0;
+        height: 100%;
+    }
+    
+    .slides > div {
+        scroll-snap-align:start;
+        scroll-behavior: smooth;
+    }
+
+    .product-image-slide {
+        max-width: 180px; 
+    }
+
+    .product {
+        padding: 10px 10px 10px 10px;
+        }
+        
+        .floated {
+            float: left;
+        }
+        
+        .text-aligned {
+            text-align: center;
+            color:#000000;
+        }
+
+        .style {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        section::after {
+            content:'';
+            clear: both;
+            display: table;
+        }
+
+        

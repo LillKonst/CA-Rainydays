@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: auto 1fr auto;
+    max-width: 100%;
+    border:10px solid #F9F8F8;
+    min-height: 100vh;
+    padding: 3%;   
+}
+    
+    header {
+     display:flex;
+     flex-direction: column;
+    }
+    
+
+@media only screen and (max-width: 600px) {
+     body {
+         width: 90%;
+      display: grid;
+      grid-template-areas: 
+         'header'
+         'main'
+         'footer'
+         ;
+     
+    }
+ }
