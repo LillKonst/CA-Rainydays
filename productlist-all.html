@@ -5,73 +5,342 @@
     <meta charset="utf-8" />
     <title>Rainydays | Home</title>
     <meta name="description" content="Rainydays webstore." />
-    <meta name="viewport" content="width=device-wodth, initial-scale=1" />
-    <link href="css/styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/header-footer-styles.css"/>
+    <link rel="stylesheet" href="css/productlist-all.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <header id="header">
-      <nav>
-        <ul>
-          <li><a href="#support">Support</a></li>
-          <li>Find Store</li>
-        </ul>
-        <a href="index.html"><img scr"..." alt="Rainydays LOGO"/> </a>
-        <ul>
-          <li>Profile ICON</li>
-          <li>Favourites ICON</li>
-          <li><a href="shoppingbag.html">Shoppingbag ICON</a></li>
-        </ul>
-        <p>Searchbar</p>
-        <ul>
-          <li><a href="productlist-all.html">ALL</a></li>
-          <li><a href="productlist-women">WOMEN</a></li>
-          <li><a href="productlist-men">MEN</a></li>
-          <li><a href="productlist-sale.html">SALE</a></li>
-          <li><a href="sustainability.html">SUSTAINABILITY</a></li>
-        </ul>
+    <header>
+      <nav class="container">
+          <section class="g-fl-container top-left-nav">
+            <div class="top-left-nav-f menu">
+              <a href="#support">Support</a>
+              <a href="...">Find Store</a> 
+            </div>
+          </section>
+        
+
+        <input type="checkbox" id="check" />
+       
+
+        <a class="logo g-fl-container" href="hamburgermenu.html">
+            <img class="logo-img" src="../images/rainydays-logo-cut-slogan.png" alt="logo"/>
+        </a>
+
+
+        <section class="g-fl-container top-right-nav">
+          <div class="top-right-nav-f">
+            <a class="svg" href="shoppingbag.html"
+                ><img
+                  
+                  src="images/Profile.svg"
+                  alt="Profile ICON"  />
+            </a>
+            <a class="svg" href="shoppingbag.html"
+                ><img
+                  src="images/heart_svgrepo.com.svg"
+                  alt="Favourites ICON"
+              /></a>
+            <a class="svg" href="shoppingbag.html"
+                ><img
+               
+                  src="images/Shopping bag.svg"
+                  alt="Shoppingbag ICON"
+              /></a>
+        </div>
+        </section>
+        
+          
+         <section class="bottom-left g-fl-container" >
+          <a href="shoppingbag.html" class="svg searchbar"
+            ><img
+              src="images/Searchbar.svg"
+              alt="SEARCHBAR"
+        /></a>
+         </section> 
+        
+            
+        <section class="main-nav g-fl-container menu">
+            <a href="productlist-all.html">ALL</a>
+            <a href="productlist-women.html">WOMEN</a></li>
+            <a href="productlist-men.html">MEN</a></li>
+            <a href="productlist-sale.html">SALE</a></li>
+            <a href="sustainability.html">SUSTAINABILITY</a></li>
+        </section>    
+
+        <label class="hamburgermenu" for="check" class="close-menu"
+              ><i class="fas fa-bars"></i>
+        </label>
+            
+        </span>
+          <label class="hamburgermenu" for="check" class="open-menu"
+            ><i class="fas fa-bars hamburgermenu"></i></label>
       </nav>
     </header>
-    <footer>
-      <div id="support">
-        <h3>Support</h3>
-        <nav>
-          <ul>
-            <li>Frequently asked questions</li>
-            <li>Find Store</li>
-            <li>Shipping/Returns</li>
-            <li>Terms and conditions</li>
-            <li>Guarantee</li>
-            <li>Job oppourtunities</li>
-          </ul>
-        </nav>
-      </div>
-      <div>
-        <h3>Contact us</h3>
-        <p>+4798765432</p>
-        <nav>contact@rainydays.com</nav>
-        <h3>About us</h3>
-        <nav>
-          <ul>
-            <li>Our story</li>
-            <li>Sustainability</li>
-          </ul>
-        </nav>
-      </div>
-      <div>
-        <h3>The Rainydays CLUB</h3>
-        <p>Sign up for dicounts, bonuses and tips for your next outing!</p>
-        <p>Sign up</p>
-        <p>Follow us</p>
-        <p>insta icon</p>
-        <p>facebook icon</p>
-        <p>pinterest icon</p>
-      </div>
-      <div>
-        <a href="#header"><img scr="..." alt="Rainydays LOGO" /></a>
-        <p>Address: Rainy Street 100, Oslo, Norway</p>
-        <p>Org 987654321</p>
-        <p>&copy; 2023 Rainydays</p>
-      </div>
-    </footer>
+   <main>
+    <p class="grid1 top-guide">
+      RAINYDAYS / ALL
+    </p>
+
+    <p class="grid1-1 top-guide">
+      RAINYDAYS / ALL
+    </p>
+
+    <p class="grid2 top-guide">
+      FILTERS
+    </p>
+
+    <section class="grid3">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid4">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid5">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid6">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid7">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid8">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid9">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid10">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+
+    <section class="grid11">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid12">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid13">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid14">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid15">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid16">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid17">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid18">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid19">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid20">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+
+    <section class="grid21">
+      <img src="images/RainyDays_JennaJacket.png" alt="product picture" >
+      <p>Jenna Jacket</p>
+      <p>This jacket is awesome</p>
+      <p>1200 NOK</p>
+      <button type="color-btn" class="color-btns color-btn-1"></button>
+          <button type="color-btn" class="color-btns color-btn-2"></button>
+          <button type="color-btn" class="color-btns color-btn-3"></button>
+    </section>
+    
+    <p class="grid22 top-guide">
+      SHOW MORE
+    </p>
+
+   </main>
+   <footer class="footer-grid">
+        
+    <section class="f-g-1">
+        <div id="support" class="">
+            <h3>Support</h3>     
+            <p>Frequently asked questions</p>
+            <p>Find Store</p>
+            <p>Shipping/Returns</p>
+            <p>Terms and conditions</p>
+            <p>Guarantee</p> 
+            <p>Job oppourtunities</p>
+        </div>
+    </section>
+  
+  <section class="f-g-2">
+    <h3>Contact us</h3>
+    <a href="contact-form.html">Contact us</a>
+    <p>+4798765432</p>
+    <nav>contact@rainydays.com</nav>
+  </section>
+
+  <section class="f-g-3">
+    <h3>About us</h3>
+        <p>Our story</p>
+        <p>Sustainability</p>
+  </section>
+
+  <section class="f-g-4">
+    <h3>The Rainydays CLUB</h3>
+    <p>Sign up for dicounts, bonuses and tips for your next outing!</p>
+    <a href="..." class="cta">Sign up<alt="..."/> </a>
+    <p>Follow us</p>
+    <img class="icons icons-1" src="images/Instagram.svg" />
+    <img class="icons icons-2" src="images/Facebook.svg" />
+    <img class="icons icons-3" src="images/Pintrest logo.svg" />
+  </section>
+
+<section class="f-g-5">
+  <a href="#header"
+    ><img
+      src="images/rainydays-logo-cut-slogan.png"
+      alt="Rainydays LOGO"
+      class="bottom-logo"
+  /></a>
+  <p>Address: Rainy Street 100, Oslo, Norway</p>
+  <p>Org 987654321</p>
+  <p>&copy; 2023 Rainydays</p>
+</section>
+</footer>
   </body>
 </html>

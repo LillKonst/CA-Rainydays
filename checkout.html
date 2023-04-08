@@ -6,73 +6,305 @@
     <title>Rainydays | Home</title>
     <meta name="description" content="Rainydays webstore." />
     <meta name="viewport" content="width=device-wodth, initial-scale=1" />
-    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/header-footer-styles.css"/>
+    <link rel="stylesheet" href="css/checkout-style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <header id="header">
-      <nav>
-        <ul>
-          <li><a href="#support">Support</a></li>
-          <li>Find Store</li>
-        </ul>
-        <img scr"..." alt="Rainydays LOGO" /><a href="index.html"></a>Rainydays LOGO</a>
-        <ul>
-          <li>Profile ICON</li>
-          <li>Favourites ICON</li>
-          <li><a href="shoppingbag.html">Shoppingbag ICON</a></li>
-        </ul>
-        <p>Searchbar</p>
-        <ul>
-          <li><a href="productlist-all.html">ALL</a></li>
-          <li><a href="productlist-women">WOMEN</a></li>
-          <li><a href="productlist-men">MEN</a></li>
-          <li><a href="productlist-sale.html">SALE</a></li>
-          <li><a href="sustainability.html">SUSTAINABILITY</a></li>
-        </ul>
+    <header>
+      <nav class="container">
+          <section class="g-fl-container top-left-nav">
+            <div class="top-left-nav-f menu">
+              <a href="#support">Support</a>
+              <a href="...">Find Store</a> 
+            </div>
+          </section>
+        
+
+        <input type="checkbox" id="check" />
+       
+
+        <a class="logo g-fl-container" href="#">
+            <img class="logo-img" src="../images/rainydays-logo-cut-slogan.png" alt="logo"/>
+        </a>
+
+
+        <section class="g-fl-container top-right-nav">
+          <div class="top-right-nav-f">
+            <a class="svg" href="shoppingbag.html"
+                ><img
+                  
+                  src="images/Profile.svg"
+                  alt="Profile ICON"  />
+            </a>
+            <a class="svg" href="shoppingbag.html"
+                ><img
+                  src="images/heart_svgrepo.com.svg"
+                  alt="Favourites ICON"
+              /></a>
+            <a class="svg" href="shoppingbag.html"
+                ><img
+               
+                  src="images/Shopping bag.svg"
+                  alt="Shoppingbag ICON"
+              /></a>
+        </div>
+        </section>
+        
+          
+         <section class="bottom-left g-fl-container" >
+          <a href="shoppingbag.html" class="svg searchbar"
+            ><img
+              src="images/Searchbar.svg"
+              alt="SEARCHBAR"
+        /></a>
+         </section> 
+        
+            
+        <section class="main-nav g-fl-container menu">
+            <a href="productlist-all.html">ALL</a>
+            <a href="productlist-women.html">WOMEN</a></li>
+            <a href="productlist-men.html">MEN</a></li>
+            <a href="productlist-sale.html">SALE</a></li>
+            <a href="sustainability.html">SUSTAINABILITY</a></li>
+        </section>    
+
+        <label class="hamburgermenu" for="check" class="close-menu"
+              ><i class="fas fa-bars"></i>
+        </label>
+            
+        </span>
+          <label class="hamburgermenu" for="check" class="open-menu"
+            ><i class="fas fa-bars hamburgermenu"></i></label>
       </nav>
     </header>
-    <footer>
-        <div id="support"> 
-          <h3>Support</h3>
-          <nav>
-            <ul>
-              <li>Frequently asked questions</li>
-              <li>Find Store</li>
-              <li>Shipping/Returns</li>
-              <li>Terms and conditions</li>
-              <li>Guarantee</li>
-              <li>Job oppourtunities</li>
-            </ul>
-          </nav>
+    <main>
+      <p class="grid1 top-guide">RAINYDAYS / CHECKOUT</p>
+
+      <section class="grid3 greenbox">
+        <h1 class="grid-greenbox-1">Summary</h1>
+        <div class="grid-greenbox-12"></div>
+
+        <img
+          class="product-pic grid-greenbox-2"
+          src="images/RainyDays_JennaJacket.png"
+          alt="product image"
+        />
+        <h4 class="grid-greenbox-3">Jenna Jacket</h4>
+
+        <div class="grid-greenbox-4">
+          <p class="summ-text">Art.nr: 98765</p>
+          <p class="summ-text">Color: Grey</p>
         </div>
-        <div>
-          <h3>Contact us</h3>
-          <p>+4798765432</p>
-          <nav>contact@rainydays.com</nav>
-          <h3>About us</h3>
-          <nav>
-            <ul>
-              <li>Our story</li>
-              <li>Sustainability</li>
-            </ul>
-          </nav>
+        <div class="grid-greenbox-5">
+          <p class="summ-text">Size: S</p>
+          <p class="summ-text">1200 NOK</p>
         </div>
-        <div>
-          <h3>The Rainydays CLUB</h3>
-          <p>Sign up for dicounts, bonuses and tips for your next outing!</p>
-          <p>Sign up</p>
-          <p>Follow us</p>
-          <p>insta icon</p>
-          <p>facebook icon</p>
-          <p>pinterest icon</p>
+
+        <div class="grid-greenbox-13"></div>
+
+        <img
+          class="product-pic grid-greenbox-6"
+          src="images/RainyDays_ForestFleece.png"
+          alt="product image"
+        />
+        <h4 class="grid-greenbox-7">Forest Fleece</h4>
+        <div class="grid-greenbox-8">
+          <p class="summ-text">Art.nr: 34567</p>
+          <p class="summ-text">Color: Green</p>
         </div>
-        <div>
-          <a href="#header"><img scr="..." alt="Rainydays LOGO" /></a>
-          <p>Address: Rainy Street 100, Oslo, Norway</p>
-          <p>Org 987654321</p>
-          <p>&copy; 2023 Rainydays</p>
+        <div class="grid-greenbox-9">
+          <p class="summ-text">Size: S</p>
+          <p class="summ-text">800 NOK</p>
         </div>
-      </footer>
-    </body>
-  </html>
+
+        <div class="grid-greenbox-14"></div>
+
+        <div class="grid-greenbox-10">
+          <p class="summ-text summ-text-1">Order:</p>
+          <p class="summ-text summ-text-1">Delivery</p>
+          <p class="summ-text summ-text-2">Total:</p>
+        </div>
+        <div class="grid-greenbox-11">
+          <p class="summ-text summ-text-1">2000 NOK</p>
+          <p class="summ-text summ-text-1">49 NOK</p>
+          <p class="summ-text summ-text-2">1249 NOK</p>
+        </div>
+      </section>
+      
+      <form action="form-success.php" class="form-box"></form>
+
+      <section class="grid2">
+        <h2>Shipping information:</h2>
+        
+          <fieldset class="form-boxes form-wrapper">
+            <legend class="display-none">Shipping information:</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" class="form__input"/>
+            <label for="email">Email adress:</label>
+            <input type="email" name="email" id="email" class="form__input" />
+            <label for="text">Adress:</label>
+            <input
+              type="adress"
+              name="adress"
+              id="adress"
+              class="form__input"
+            />
+            <label for="number">Postal code:</label>
+            <input
+              type="postal-code"
+              name="postal-code"
+              id="postal-code"
+              class="form__input"
+            />
+          </fieldset>
+      </section>
+      <section class="grid4">
+           <h2>Billing information:</h2>
+        <h3>How would you like to pay?</h3>
+
+        <section>
+          <div class="check-the-logo">
+            <input type="checkbox" id="visa" />
+            <label for="visa"
+              ><img
+                class="payment-logos"
+                src="images/image 8.svg"
+                alt="visa logo"
+            /></label>
+          </div>
+          <div class="check-the-logo">
+            <input type="checkbox" id="mastercard" />
+            <label for="mastercard"
+              ><img
+                class="payment-logos"
+                src="images/image 6.svg"
+                alt="visa logo"
+            /></label>
+          </div>
+          <div class="check-the-logo"> 
+            <input type="checkbox" id="vipps" />
+            <label for="vipps"
+              ><img
+                class="payment-logos"
+                src="images/image 5.svg"
+                alt="visa logo"
+            /></label>
+          </div>
+          <div class="check-the-logo">
+            <input type="checkbox" id="vipps" />
+            <label for="vipps"
+              ><img
+                class="payment-logos"
+                src="images/image 7.svg"
+                alt="visa logo"
+            /></label>
+          </div>
+        </section>
+      </section>
+      
+          <fieldset class="form-boxes grid5">
+            <legend class="display-none">Billing information:</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" class="form__input" />
+            <label for="card-number">Card number:</label>
+            <input
+              type="number"
+              name="card-number"
+              id="card-number"
+              class="form__input"
+            />
+            <div class="in-line">
+             <label for="expire-date">Expire date:</label>
+            <input
+              type="number"
+              name="expire-date"
+              id="expire-date"
+              class="form__input"
+            /> 
+            
+            <label for="security-code">Security code:</label>
+            <input
+              type="number"
+              name="security-code"
+              id="security-code"
+              class="form__input"
+            />
+             </div>
+          </fieldset>
+          
+          <section class="grid6">
+        <div class="check-the-box">
+          <input type="checkbox" id="check5" />
+          <label for="recive-emails"
+            >Yes, I would love to recive updates from Rainydays via
+            email.</label
+          >
+        </div>
+        <div class="check-the-box">
+          <input type="checkbox" id="check6" />
+          <label for="terms-and-conditions"
+            >Yes, I accept the terms and conditions.</label
+          >
+        </div>
+      </section>
+          <input class="cta-button grid7" type="checkout" value="CHECKOUT" />
+         </section>
+  </main>
+  <footer class="footer-grid">
+        
+    <section class="f-g-1">
+        <div id="support" class="">
+            <h3>Support</h3>     
+            <p>Frequently asked questions</p>
+            <p>Find Store</p>
+            <p>Shipping/Returns</p>
+            <p>Terms and conditions</p>
+            <p>Guarantee</p> 
+            <p>Job oppourtunities</p>
+        </div>
+    </section>
   
+  <section class="f-g-2">
+    <h3>Contact us</h3>
+    <a href="contact-form.html">Contact us</a>
+    <p>+4798765432</p>
+    <nav>contact@rainydays.com</nav>
+  </section>
+
+  <section class="f-g-3">
+    <h3>About us</h3>
+        <p>Our story</p>
+        <p>Sustainability</p>
+  </section>
+
+  <section class="f-g-4">
+    <h3>The Rainydays CLUB</h3>
+    <p>Sign up for dicounts, bonuses and tips for your next outing!</p>
+    <a href="..." class="cta">Sign up<alt="..."/> </a>
+    <p>Follow us</p>
+    <img class="icons icons-1" src="images/Instagram.svg" />
+    <img class="icons icons-2" src="images/Facebook.svg" />
+    <img class="icons icons-3" src="images/Pintrest logo.svg" />
+  </section>
+
+<section class="f-g-5">
+  <a href="#header"
+    ><img
+      src="images/rainydays-logo-cut-slogan.png"
+      alt="Rainydays LOGO"
+      class="bottom-logo"
+  /></a>
+  <p>Address: Rainy Street 100, Oslo, Norway</p>
+  <p>Org 987654321</p>
+  <p>&copy; 2023 Rainydays</p>
+</section>
+</footer>
+  </body>
+</html>

@@ -1,589 +1,549 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
   <head>
-    <meta name="author!" content="Lill-Kristine Konst" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8" />
-    <title>Rainydays | Home</title>
-    <meta name="description" content="Rainydays webstore." />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/grid.css" rel="grids" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>menu</title>
+    <link rel="stylesheet" href="css/header-footer-styles.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
     <link
-      href="css/stylesheet-header-footer.css"
-      rel="stylesheet header and footer"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <!--<header class=".positioned-container">
-      <section class="positioned-container-1">
-        <input type="checkbox" id="menu-checkbox" />
-        <label for="menu-checkbox"
-          ><img
-            src="images/hamburger-icon.svg"
-            alt="hamburger menu"
-            class="icon-size"
-          />
-        </label>
-        <nav class="pos-absolute">
-          <a href="productlist-all.html" class="main-nav">ALL</a>
-          <a href="productlist-women.html" class="main-nav">WOMEN</a>
-          <a href="productlist-men.html" class="main-nav">MEN</a>
-          <a href="productlist-sale.html" class="main-nav">SALE</a>
-          <a href="sustainability.html" class="main-nav">SUSTAINABILITY</a>
-        </nav>
-  
-        <img
-          class="logo logo-mobile"
-          src="images/rainydays-logo-cut-slogan.png"
-          alt="Rainydays Logo"
-        />
-  
-        <a href="shoppingbag.html" class="searchbar-floated"
-          ><img
-            src="images/Searchbar.svg"
-            class="icon-size searchbar-icon"
-            alt="SEARCHBAR"
-        /></a>
-        <a href="shoppingbag.html"
-          ><img src="images/Profile.svg" class="icon-size" alt="Profile ICON"
-        /></a>
-        <a href="shoppingbag.html"
-          ><img
-            src="images/heart_svgrepo.com.svg"
-            class="icon-size"
-            alt="Favourites ICON"
-        /></a>
-        <a href="shoppingbag.html"
-          ><img
-            src="images/Shopping bag.svg"
-            class="icon-size"
-            alt="Shoppingbag ICON"
-        /></a>
-      </section>
-    </header> <!-->
-    <header id="header" class="positioned-container">
+    <header>
       <nav>
-        <a href="#support" class="top-left-nav">Support</a>
-        <a href="..." class="top-left-nav">Find Store</a>
+        <label class="hamburgermenu grid-h1" for="check"><i class="fas fa-bars"></i>
+          <input type="checkbox" id="hamburger-menu" /></label>
 
-        <div class="top-right-nav">
-          <a href="shoppingbag.html"
-            ><img src="images/Profile.svg" alt="Profile ICON"
-          /></a>
-          <a href="shoppingbag.html"
-            ><img src="images/heart_svgrepo.com.svg" alt="Favourites ICON"
-          /></a>
-          <a href="shoppingbag.html"
-            ><img src="images/Shopping bag.svg" alt="Shoppingbag ICON"
-          /></a>
-        </div>
+          <section class="top-left-nav">
+            <div class="top-left-nav-f menu">
+              <a href="#support">Support</a>
+              <a href="...">Find Store</a> 
+            </div>
+          </section>
 
-        <a href="index.html"
-          ><img
-            src="images/rainydays-logo-cut-slogan.png"
-            alt="Rainydays LOGO"
-            class="logo"
-          />
+        <a class="logo g-fl-container " href="hamburgermenu.html">
+            <img class="logo-img grid-h2" src="../images/rainydays-logo-cut-slogan.png" alt="logo"/>
         </a>
 
-        <input type="checkbox" id="menu-checkbox" />
-        <label for="menu-checkbox"><i class="hamburger-icon"></i> </label>
 
-        <a href="shoppingbag.html" class="searchbar-floated"
-          ><img src="images/Searchbar.svg" alt="SEARCHBAR"
-        /></a>
-
-        <div class="main-nav-position">
-          <a href="productlist-all.html" class="main-nav">ALL</a>
-          <a href="productlist-women.html" class="main-nav">WOMEN</a>
-          <a href="productlist-men.html" class="main-nav">MEN</a>
-          <a href="productlist-sale.html" class="main-nav">SALE</a>
-          <a href="sustainability.html" class="main-nav">SUSTAINABILITY</a>
+        <section class="g-fl-container top-right-nav grid-h4">
+          <div class="top-right-nav-f">
+            <a href="shoppingbag.html"
+                ><img class="svg grid-h4"
+                  
+                  src="images/Profile.svg"
+                  alt="Profile ICON"  />
+            </a>
+            <a href="shoppingbag.html"
+                ><img class="svg grid-h5"
+                  src="images/heart_svgrepo.com.svg"
+                  alt="Favourites ICON"
+              /></a>
+            <a href="shoppingbag.html"
+                ><img class="svg grid-h6"
+                  src="images/Shopping bag.svg"
+                  alt="Shoppingbag ICON"
+              /></a>
         </div>
+        </section>
+        
+          
+         <section class="bottom-left g-fl-container" >
+          <a href="shoppingbag.html" 
+            ><img class="svg searchbar grid-h3"
+              src="images/Searchbar.svg"
+              alt="SEARCHBAR"
+        /></a>
+         </section> 
+        
+            
+        <section class="main-nav g-fl-container menu">
+            <a href="productlist-all.html">ALL</a>
+            <a href="productlist-all.html">WOMEN</a></li>
+            <a href="productlist-all.html">MEN</a></li>
+            <a href="productlist-all.html">SALE</a></li>
+            <a href="#">SUSTAINABILITY</a></li>
+        </section>           
+        </span>
       </nav>
     </header>
     <main>
-      <img
-        class="main-image-mobile"
-        src="images/man-with-yellow-rain-jacket-look-tree-tops-forest_157125-9355_mobile.jpg"
-        alt="man in yellow raincoat"
-      />
-      <img
-        class="main-image"
-        src="images/man-with-yellow-rain-jacket-look-tree-tops-forest_157125-9355_cut.jpg"
-        alt="man in yellow raincoat"
-      />
-      <section>
-        <h2>Popular</h2>
-        <nav class="slider">
-          <a class="slide" id="slide1" href="products/product-jenna-jacket.html"
-            ><div class="product floated">
-              <img
-                src="images/RainyDays_JenniferJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jennifer jacket"
-              />
-              <p class="text-aligned style">Jennifer Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide2"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_JennaJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jenna Jcket"
-              />
-              <p class="text-aligned style">Jenna Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide3"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_JamieJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jamie jacket"
-              />
-              <p class="text-aligned style">Jamie Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide4"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_ForestFleece.png"
-                class="product-image-homepage"
-                alt="Picture of the Forest fleece"
-              />
-              <p class="text-aligned style">Forest Fleece</p>
-            </div></a
-          >
-          <a class="slide" id="slide5" href="products/product-jenna-jacket.html"
-            ><div class="product floated">
-              <img
-                src="images/RainyDays_JenniferJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jennifer jacket"
-              />
-              <p class="text-aligned style">Jennifer Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide6"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_JennaJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jenna Jcket"
-              />
-              <p class="text-aligned style">Jenna Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide7"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_JamieJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jamie jacket"
-              />
-              <p class="text-aligned style">Jamie Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide8"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_ForestFleece.png"
-                class="product-image-homepage"
-                alt="Picture of the Forest fleece"
-              />
-              <p class="text-aligned style">Forest Fleece</p>
-            </div></a
-          >
-          <div class="slide-wrap">
-            <a href="slide-1">1</a>
-            <a href="slide-1">2</a>
-            <a href="slide-1">3</a>
-          </div>
-        </nav>
-      </section>
-      <section class="grid-container">
-        <div class="positioned-container">
-          <h4 class="positioned-new">NEW</h4>
-          <h1 class="positioned-sc">SPRING COLLECTION</h1>
-          <img
-            src="images/blake-cheek-jnJ89cuXMcs-unsplash.jpg"
-            class="spring-collection-image"
-            alt="man with blue jacket in the woods"
-          />
-        </div>
-
-        <div class="positioned-container-2">
-          <h2>Rainy days?</h2>
-          <h5>We've got you covered!</h5>
-          <p class="div-p">Browse through our collection to</p>
-          <p class="bottom-text div-p">find your favourite.</p>
-        </div>
-        <div class="positioned-container-3">
-          <h2 class="blog-text-1">PUSHING THE COMFORT ZONE</h2>
-          <p class="blog-text-2">Check out our blog!</p>
-        </div>
-        <!--<section  class="grid-container">
-      <section class="positioned-container">
-        <h4 class="positioned-new">NEW</h4>
-        <h1 class="positioned-sc">SPRING COLLECTION</h1>
         <img
-          src="images/blake-cheek-jnJ89cuXMcs-unsplash.jpg"
-          class="spring-collection-image"
-          alt="man with blue jacket in the woods" />
-      </section>
-
-      <section class="positioned-container floated-box">
-        <p class="position-absolute .greenbox-text2">We've got you covered!</p>
-        <p class="position-absolute .greenbox-text3">Browse through our collection to</p>
-        <p class="position-absolute .greenbox-text4">find your favourite.</p> 
-        <p class="greenbox greenbox-text1">Rainy days?</p>
-        </section> 
-        
-      <section>
-        <img
-          src="images/nikhil-prasad-h-C4l0-MHGY-unsplash.jpg"
-          class="spring-collection-image"
-          alt="person in the mountains"
+          class="main-image"
+          src="images/man-with-yellow-rain-jacket-look-tree-tops-forest_157125-9355_cut.jpg"
+          alt="man in yellow raincoat"
         />
-        <p>PUSHING THE COMFORT ZONE</p>
-        <p>Check out our blog!</p>
-      </section> 
-        <!-->
-      </section>
-      <section>
-        <h2>WOMEN</h2>
-        <nav class="slider">
-          <a class="slide" id="slide1" href="products/product-jenna-jacket.html"
-            ><div class="product floated">
-              <img
-                src="images/RainyDays_JenniferJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jennifer jacket"
-              />
-              <p class="text-aligned style">Jennifer Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide2"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_JennaJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jenna Jcket"
-              />
-              <p class="text-aligned style">Jenna Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide3"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_JamieJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jamie jacket"
-              />
-              <p class="text-aligned style">Jamie Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide4"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_ForestFleece.png"
-                class="product-image-homepage"
-                alt="Picture of the Forest fleece"
-              />
-              <p class="text-aligned style">Forest Fleece</p>
-            </div></a
-          >
-          <a class="slide" id="slide5" href="products/product-jenna-jacket.html"
-            ><div class="product floated">
-              <img
-                src="images/RainyDays_JenniferJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jennifer jacket"
-              />
-              <p class="text-aligned style">Jennifer Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide6"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_JennaJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jenna Jcket"
-              />
-              <p class="text-aligned style">Jenna Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide7"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_JamieJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jamie jacket"
-              />
-              <p class="text-aligned style">Jamie Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide8"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_ForestFleece.png"
-                class="product-image-homepage"
-                alt="Picture of the Forest fleece"
-              />
-              <p class="text-aligned style">Forest Fleece</p>
-            </div></a
-          >
-          <div class="slide-wrap">
-            <a href="slide-1">1</a>
-            <a href="slide-1">2</a>
-            <a href="slide-1">3</a>
-          </div>
-        </nav>
-      </section>
-      <section>
-        <h2>MEN</h2>
-        <nav class="slider">
-          <a class="slide" id="slide1" href="products/product-jenna-jacket.html"
-            ><div class="product floated">
-              <img
-                src="images/RainyDays_JenniferJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jennifer jacket"
-              />
-              <p class="text-aligned style">Jennifer Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide2"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_JennaJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jenna Jcket"
-              />
-              <p class="text-aligned style">Jenna Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide3"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_JamieJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jamie jacket"
-              />
-              <p class="text-aligned style">Jamie Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide4"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_ForestFleece.png"
-                class="product-image-homepage"
-                alt="Picture of the Forest fleece"
-              />
-              <p class="text-aligned style">Forest Fleece</p>
-            </div></a
-          >
-          <a class="slide" id="slide5" href="products/product-jenna-jacket.html"
-            ><div class="product floated">
-              <img
-                src="images/RainyDays_JenniferJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jennifer jacket"
-              />
-              <p class="text-aligned style">Jennifer Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide6"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_JennaJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jenna Jcket"
-              />
-              <p class="text-aligned style">Jenna Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide7"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_JamieJacket.png"
-                class="product-image-homepage"
-                alt="Picture of the Jamie jacket"
-              />
-              <p class="text-aligned style">Jamie Jacket</p>
-            </div></a
-          >
-
-          <a
-            class="slide"
-            id="slide8"
-            href="products/product-jenna-jacket.html"
-          >
-            <div class="product floated">
-              <img
-                src="images/RainyDays_ForestFleece.png"
-                class="product-image-homepage"
-                alt="Picture of the Forest fleece"
-              />
-              <p class="text-aligned style">Forest Fleece</p>
-            </div></a
-          >
-          <div class="slide-wrap">
-            <a href="slide-1">1</a>
-            <a href="slide-1">2</a>
-            <a href="slide-1">3</a>
-          </div>
-        </nav>
-      </section>
-      <section class="grid-container-2">
         <img
-          src="images/istockphoto-1320993309-170667a_cut.jpg"
-          class="spring-collection-image"
-          alt="smiling woman in yellow rainjacket"
+          class="main-image-mobile"
+          src="images/man-with-yellow-rain-jacket-look-tree-tops-forest_157125-9355_mobile.jpg"
+          alt="man in yellow raincoat"
         />
-        <div class="positioned-container-002">
-        <h2 class="some-text-1">WE LOVE TO SEE YOU IN OUR JACKETS!</h2>
-        <p class="some-text-2">Tag us for a chance to be </p>
-        <p class="some-text-3">featured.</p>
-        <img src="images/Instagram2.svg" class="icons icons-1"/>
-        <img src="images/Facebook2.svg" class="icons icons-2" />
-        <img src="images/Pintrest2.svg" class="icons icons-3" />
-      </div>
-    </section>
-    </main>
-    <footer>
-      <section>
-        <div id="support" class="position footer-text text">
-          <h3>Support</h3>     
-             <p>Frequently asked questions</p>
-             <p>Find Store</p>
-             <p>Shipping/Returns</p>
-             <p>Terms and conditions</p>
-             <p>Guarantee</p> 
-             <p>Job oppourtunities</p>
-            
+
+        <section class="slide-container-1">
+          <h4>Popular</h4>
+          <nav class="slider">
+            <a class="slide" id="slide1" href="products/product-jenna-jacket.html"
+              ><div class="product floated">
+                <img
+                  src="images/RainyDays_JenniferJacket.png"
+                  class="product-image-homepage"
+                  alt="Picture of the Jennifer jacket"
+                />
+                <p class="text-aligned style">Jennifer Jacket</p>
+              </div></a
+            >
+  
+            <a
+              class="slide"
+              id="slide2"
+              href="products/product-jenna-jacket.html"
+            >
+              <div class="product floated">
+                <img
+                  src="images/RainyDays_JennaJacket.png"
+                  class="product-image-homepage"
+                  alt="Picture of the Jenna Jcket"
+                />
+                <p class="text-aligned style">Jenna Jacket</p>
+              </div></a
+            >
+  
+            <a
+              class="slide"
+              id="slide3"
+              href="products/product-jenna-jacket.html"
+            >
+              <div class="product floated">
+                <img
+                  src="images/RainyDays_JamieJacket.png"
+                  class="product-image-homepage"
+                  alt="Picture of the Jamie jacket"
+                />
+                <p class="text-aligned style">Jamie Jacket</p>
+              </div></a
+            >
+  
+            <a
+              class="slide"
+              id="slide4"
+              href="products/product-jenna-jacket.html"
+            >
+              <div class="product floated">
+                <img
+                  src="images/RainyDays_ForestFleece.png"
+                  class="product-image-homepage"
+                  alt="Picture of the Forest fleece"
+                />
+                <p class="text-aligned style">Forest Fleece</p>
+              </div></a
+            >
+            <a class="slide" id="slide5" href="products/product-jenna-jacket.html"
+              ><div class="product floated">
+                <img
+                  src="images/RainyDays_JenniferJacket.png"
+                  class="product-image-homepage"
+                  alt="Picture of the Jennifer jacket"
+                />
+                <p class="text-aligned style">Jennifer Jacket</p>
+              </div></a
+            >
+  
+            <a
+              class="slide"
+              id="slide6"
+              href="products/product-jenna-jacket.html"
+            >
+              <div class="product floated">
+                <img
+                  src="images/RainyDays_JennaJacket.png"
+                  class="product-image-homepage"
+                  alt="Picture of the Jenna Jcket"
+                />
+                <p class="text-aligned style">Jenna Jacket</p>
+              </div></a
+            >
+  
+            <a
+              class="slide"
+              id="slide7"
+              href="products/product-jenna-jacket.html"
+            >
+              <div class="product floated">
+                <img
+                  src="images/RainyDays_JamieJacket.png"
+                  class="product-image-homepage"
+                  alt="Picture of the Jamie jacket"
+                />
+                <p class="text-aligned style">Jamie Jacket</p>
+              </div></a
+            >
+  
+            <a
+              class="slide"
+              id="slide8"
+              href="products/product-jenna-jacket.html"
+            >
+              <div class="product floated">
+                <img
+                  src="images/RainyDays_ForestFleece.png"
+                  class="product-image-homepage"
+                  alt="Picture of the Forest fleece"
+                />
+                <p class="text-aligned style">Forest Fleece</p>
+              </div></a
+            >
+            <!--
+            <div class="slide-wrap">
+              <a href="slide-1">1</a>
+              <a href="slide-1">2</a>
+              <a href="slide-1">3</a>
+            </div> -->
           </nav>
-        </div>
-        <div class="position text">
-          <h3>Contact us</h3>
-          <a href="contact-form.html">Contact us</a>
-          <p>+4798765432</p>
-          <nav>contact@rainydays.com</nav>
-        </div>
-        <div class="position text">
+        </section>
+
+        <section class="positioned-container">
+            
+            <img
+              src="images/blake-cheek-jnJ89cuXMcs-unsplash.jpg"
+              class="spring-collection-image "
+              alt="man with blue jacket in the woods"
+            />  
+            <h1 class="positioned-sc">SPRING COLLECTION</h1>
+            <h4 class="positioned-new">NEW</h4>
+          </section>
+  
+          <section class="positioned-container-2">
+            <h2 class="rd">Rainy days?</h2>
+            <h5>We've got you covered!</h5>
+            <p class="div-p">Browse through our collection to</p>
+            <p class="bottom-text div-p">find your favourite.</p>
+          </section>
+
+          <section class="positioned-container-3">
+            <h2 class="blog-text-1">PUSHING THE COMFORT ZONE</h2>
+            <p class="blog-text-2">Check out our blog!</p>
+          </section>
+
+          <section class="slide-container-2">
+            <h2>WOMEN</h2>
+            <nav class="slider">
+              <a class="slide" id="slide1" href="products/product-jenna-jacket.html"
+                ><div class="product floated">
+                  <img
+                    src="images/RainyDays_JenniferJacket.png"
+                    class="product-image-homepage"
+                    alt="Picture of the Jennifer jacket"
+                  />
+                  <p class="text-aligned style">Jennifer Jacket</p>
+                </div></a
+              >
+    
+              <a
+                class="slide"
+                id="slide2"
+                href="products/product-jenna-jacket.html"
+              >
+                <div class="product floated">
+                  <img
+                    src="images/RainyDays_JennaJacket.png"
+                    class="product-image-homepage"
+                    alt="Picture of the Jenna Jcket"
+                  />
+                  <p class="text-aligned style">Jenna Jacket</p>
+                </div></a
+              >
+    
+              <a
+                class="slide"
+                id="slide3"
+                href="products/product-jenna-jacket.html"
+              >
+                <div class="product floated">
+                  <img
+                    src="images/RainyDays_JamieJacket.png"
+                    class="product-image-homepage"
+                    alt="Picture of the Jamie jacket"
+                  />
+                  <p class="text-aligned style">Jamie Jacket</p>
+                </div></a
+              >
+    
+              <a
+                class="slide"
+                id="slide4"
+                href="products/product-jenna-jacket.html"
+              >
+                <div class="product floated">
+                  <img
+                    src="images/RainyDays_ForestFleece.png"
+                    class="product-image-homepage"
+                    alt="Picture of the Forest fleece"
+                  />
+                  <p class="text-aligned style">Forest Fleece</p>
+                </div></a
+              >
+              <a class="slide" id="slide5" href="products/product-jenna-jacket.html"
+                ><div class="product floated">
+                  <img
+                    src="images/RainyDays_JenniferJacket.png"
+                    class="product-image-homepage"
+                    alt="Picture of the Jennifer jacket"
+                  />
+                  <p class="text-aligned style">Jennifer Jacket</p>
+                </div></a
+              >
+    
+              <a
+                class="slide"
+                id="slide6"
+                href="products/product-jenna-jacket.html"
+              >
+                <div class="product floated">
+                  <img
+                    src="images/RainyDays_JennaJacket.png"
+                    class="product-image-homepage"
+                    alt="Picture of the Jenna Jcket"
+                  />
+                  <p class="text-aligned style">Jenna Jacket</p>
+                </div></a
+              >
+    
+              <a
+                class="slide"
+                id="slide7"
+                href="products/product-jenna-jacket.html"
+              >
+                <div class="product floated">
+                  <img
+                    src="images/RainyDays_JamieJacket.png"
+                    class="product-image-homepage"
+                    alt="Picture of the Jamie jacket"
+                  />
+                  <p class="text-aligned style">Jamie Jacket</p>
+                </div></a
+              >
+    
+              <a
+                class="slide"
+                id="slide8"
+                href="products/product-jenna-jacket.html"
+              >
+                <div class="product floated">
+                  <img
+                    src="images/RainyDays_ForestFleece.png"
+                    class="product-image-homepage"
+                    alt="Picture of the Forest fleece"
+                  />
+                  <p class="text-aligned style">Forest Fleece</p>
+                </div></a
+              >
+              <div class="slide-wrap">
+                <a href="slide-1">1</a>
+                <a href="slide-1">2</a>
+                <a href="slide-1">3</a>
+              </div>
+            </nav>
+          </section>
+        
+          <section class="slide-container-3">
+            <h2>MEN</h2>
+            <nav class="slider">
+              <a class="slide" id="slide1" href="products/product-jenna-jacket.html"
+                ><div class="product floated">
+                  <img
+                    src="images/RainyDays_JenniferJacket.png"
+                    class="product-image-homepage"
+                    alt="Picture of the Jennifer jacket"
+                  />
+                  <p class="text-aligned style">Jennifer Jacket</p>
+                </div></a
+              >
+    
+              <a
+                class="slide"
+                id="slide2"
+                href="products/product-jenna-jacket.html"
+              >
+                <div class="product floated">
+                  <img
+                    src="images/RainyDays_JennaJacket.png"
+                    class="product-image-homepage"
+                    alt="Picture of the Jenna Jcket"
+                  />
+                  <p class="text-aligned style">Jenna Jacket</p>
+                </div></a
+              >
+    
+              <a
+                class="slide"
+                id="slide3"
+                href="products/product-jenna-jacket.html"
+              >
+                <div class="product floated">
+                  <img
+                    src="images/RainyDays_JamieJacket.png"
+                    class="product-image-homepage"
+                    alt="Picture of the Jamie jacket"
+                  />
+                  <p class="text-aligned style">Jamie Jacket</p>
+                </div></a
+              >
+    
+              <a
+                class="slide"
+                id="slide4"
+                href="products/product-jenna-jacket.html"
+              >
+                <div class="product floated">
+                  <img
+                    src="images/RainyDays_ForestFleece.png"
+                    class="product-image-homepage"
+                    alt="Picture of the Forest fleece"
+                  />
+                  <p class="text-aligned style">Forest Fleece</p>
+                </div></a
+              >
+              <a class="slide" id="slide5" href="products/product-jenna-jacket.html"
+                ><div class="product floated">
+                  <img
+                    src="images/RainyDays_JenniferJacket.png"
+                    class="product-image-homepage"
+                    alt="Picture of the Jennifer jacket"
+                  />
+                  <p class="text-aligned style">Jennifer Jacket</p>
+                </div></a
+              >
+    
+              <a
+                class="slide"
+                id="slide6"
+                href="products/product-jenna-jacket.html"
+              >
+                <div class="product floated">
+                  <img
+                    src="images/RainyDays_JennaJacket.png"
+                    class="product-image-homepage"
+                    alt="Picture of the Jenna Jcket"
+                  />
+                  <p class="text-aligned style">Jenna Jacket</p>
+                </div></a
+              >
+    
+              <a
+                class="slide"
+                id="slide7"
+                href="products/product-jenna-jacket.html"
+              >
+                <div class="product floated">
+                  <img
+                    src="images/RainyDays_JamieJacket.png"
+                    class="product-image-homepage"
+                    alt="Picture of the Jamie jacket"
+                  />
+                  <p class="text-aligned style">Jamie Jacket</p>
+                </div></a
+              >
+    
+              <a
+                class="slide"
+                id="slide8"
+                href="products/product-jenna-jacket.html"
+              >
+                <div class="product floated">
+                  <img
+                    src="images/RainyDays_ForestFleece.png"
+                    class="product-image-homepage"
+                    alt="Picture of the Forest fleece"
+                  />
+                  <p class="text-aligned style">Forest Fleece</p>
+                </div></a
+              >
+              <div class="slide-wrap">
+                <a href="slide-1">1</a>
+                <a href="slide-1">2</a>
+                <a href="slide-1">3</a>
+              </div>
+            </nav>
+          </section>
+
+      
+          <section class="positioned-container-some">
+            <img
+              src="images/istockphoto-1320993309-170667a_cut.jpg"
+              class="spring-collection-image"
+              alt="smiling woman in yellow rainjacket"
+            />
+            <div class="positioned-container-some-1">
+              <h2 class="some-text-1">WE LOVE TO SEE YOU IN OUR JACKETS!</h2>
+              <p class="some-text-2">Tag us for a chance to be </p>
+              <p class="some-text-3">featured.</p>
+              <div class="icons"> 
+                <img src="images/Instagram2.svg" class="icons-1"/>
+                <img src="images/Facebook2.svg" class="icons-2" />
+                <img src="images/Pintrest2.svg" class="icons-3" />
+              </div>
+          </div>
+        </section>
+    </main>
+    <footer class="footer-grid">
+        
+          <section class="f-g-1 display-none">
+              <div id="support" class="">
+                  <h3>Support</h3>     
+                  <p>Frequently asked questions</p>
+                  <p>Find Store</p>
+                  <p>Shipping/Returns</p>
+                  <p>Terms and conditions</p>
+                  <p>Guarantee</p> 
+                  <p>Job oppourtunities</p>
+              </div>
+          </section>
+        
+        <section class="f-g-2">
+          <h3 class="footer-text1">Contact us</h3>
+          <a class="footer-text2" href="contact-form.html">Message us!</a>
+          <nav class="footer-text2">contact@rainydays.com</nav>
+        </section>
+
+        <section class="f-g-3 display-none">
           <h3>About us</h3>
               <p>Our story</p>
               <p>Sustainability</p>
-        </div>
-        <div class="position text">
+        </section>
+
+        <section class="f-g-4 display-none">
           <h3>The Rainydays CLUB</h3>
           <p>Sign up for dicounts, bonuses and tips for your next outing!</p>
-          <a href="..." class="cta">Sign up<alt="..."/> </a>
+          <a href="..." class="cta-button">Sign up<alt="..."/> </a>
+        </section>
+          
+          <section class="f-g-6 display-none">
           <p>Follow us</p>
-          <img src="images/Instagram.svg" />
-          <img src="images/Facebook.svg" />
-          <img src="images/Pintrest logo.svg" />
-        </div>
-      </section>
-      <div class="position-bottom-logo text">
+          <div class="icon-pos">
+          <img class="icons icons-1" src="images/Instagram.svg" />
+          <img class="icons icons-2" src="images/Facebook.svg" />
+          <img class="icons icons-3" src="images/Pintrest logo.svg" />
+          </div>
+        </section>
+      
+      <section class="f-g-5">
         <a href="#header"
           ><img
             src="images/rainydays-logo-cut-slogan.png"
             alt="Rainydays LOGO"
-            class="logo"
+            class="bottom-logo"
         /></a>
-        <p>Address: Rainy Street 100, Oslo, Norway</p>
-        <p>Org 987654321</p>
-        <p>&copy; 2023 Rainydays</p>
-      </div>
+        <p class="footer-text">Address: Rainy Street 100, Oslo, Norway</p>
+        <p class="footer-text">Org 987654321</p>
+        <p class="footer-text">&copy; 2023 Rainydays</p>
+      </section>
     </footer>
   </body>
 </html>

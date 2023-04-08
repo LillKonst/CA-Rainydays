@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <link
-      href="css/stylesheet-header-footer.css"
-      rel="stylesheet header and footer"
-    />
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/shoppingbag-style.css" rel="stylesheet header and footer" />
   </head>
-  <body>
-    <main>
-      <h1>Shopping bag</h1>
-      <img src="images/exit-cross.svg" alt="exit button">
-      <h2>You have 2 items in your bag</h2>
-      <img src="images/RainyDays_JennaJacket.png" alt="Jenna Jacket"/>
-      <p>Art.nr: 98765</p>
-      <p>Size: S</p> 
-      <p>Color: Grey</p> 
-      <p>1200 NOK</p>
-      <img src="images/RainyDays_ForestFleece.png" alt="Forest Fleece"/>
-      <p>Art.nr: 34567</p>
-      <p>Size: S</p> 
-      <p>Color: Green</p> 
-      <p>800 NOK</p>
-      <h3>Total:               2000 NOK</h3>
-      <div class="cta">
-      <img src="images/arrow.svg" alt="arrow">
-      <p>Checkout</p>  
-      </div>
-      
+  <body class="relative">
+    <main class="grid">
+      <img class="exit" src="images/exit-cross.svg" alt="exit button" />
 
-      <div>
-        <img src="images/image 8.svg" alt="visa logo">
-        <img src="images/image 6.svg" alt="mastercard logo">
-        <img src="images/image 5.svg" alt="vipps logo">
-        <img src="images/image 7.svg" alt="paypal logo">
-        
+      <div class="grid1">
+        <h1>Shopping bag</h1>
+        <h2>You have 2 items in your bag</h2>
       </div>
 
+      <section class="grid2">
+        <section class="grid-box">
+          <img
+            class="product-pic grid-box1"
+            src="images/RainyDays_JennaJacket.png"
+            alt="product image"
+          />
+
+          <h4 class="grid-box2">Jenna Jacket</h4>
+
+          <div class="grid-box3">
+            <p class="summ-text">Art.nr: 98765</p>
+            <p class="summ-text">Color: Grey</p>
+            <p class="summ-text">Size: S</p>
+            <p class="summ-text">1200 NOK</p>
+          </div>
+
+          <img
+            class="product-pic grid-box4"
+            src="images/RainyDays_ForestFleece.png"
+            alt="product image"
+          />
+          <h4 class="grid-box5">Forest Fleece</h4>
+          <div class="grid-box6">
+            <p class="summ-text">Art.nr: 34567</p>
+            <p class="summ-text">Color: Green</p>
+            <p class="summ-text">Size: S</p>
+            <p class="summ-text">800 NOK</p>
+          </div>
+        </section>
+      </section>
+
+      <div class="grid3">
+        <p class="summ-text summ-text-2">Total: 2000 NOK</p>
+      </div>
+
+      <div grid4>
+        <img src="images/image 8.svg" alt="visa logo" />
+        <img src="images/image 6.svg" alt="mastercard logo" />
+        <img src="images/image 5.svg" alt="vipps logo" />
+        <img src="images/image 7.svg" alt="paypal logo" />
+      </div>
+
+      <button class="grid5">CHECKOUT</button>
     </main>
   </body>
 </html>

@@ -2,10 +2,11 @@ body {
     display: grid;
     grid-gap: 20px;
     grid-template-rows: auto 1fr auto;
-    max-width: 100%;
+    max-width: 97%;
     border:10px solid #F9F8F8;
     min-height: 100vh;
     padding: 3%;   
+    margin: 0%; 
 }
     
     header {
