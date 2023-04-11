@@ -330,3 +330,170 @@ h3 {
     margin:0%; 
     padding: 10px 10px 10px 0px;
 }
+
+.mobile-greenbox {
+    display: none;
+    }
+
+@media (max-width: 600px) {
+    main {
+        display:grid; 
+        grid-template-columns: auto;
+        grid-template-rows: repeat(10, auto);
+        gap: 10px; 
+    }
+
+    .grid3 {
+        grid-column: 1;
+        grid-row: 2;
+        padding: 0% 10% 0% 10%
+    }
+
+    .grid2 {
+        grid-column: 1;
+        grid-row: 3;
+        padding:0% 10% 0% 10%;
+    }
+
+    .grid4 {
+        grid-column: 1;
+        grid-row: 4;
+        padding: 0% 10% 0% 10%
+    }
+    
+    .grid5 {
+        grid-column: 1;
+        grid-row: 6;
+        padding: 10% 10% 0% 10%;
+    }
+    
+    .grid6 {
+        grid-column: 1;
+        grid-row: 7;
+        padding: 0% 10% 0% 10%
+    }
+    
+    .grid7 {
+        grid-column: 1;
+        grid-row: 8;
+        padding: 0% 10% 0% 10%
+    }
+
+    .grid-mobile-8 {
+        grid-column: 1;
+        grid-row: 5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+       
+    }
+
+    h3 {
+        display: none; 
+    }
+
+    .cta-button {
+        display: flex; 
+        background-color: #CE8147;
+        font-size: 2em; 
+        font-weight: 600;
+        padding-left: 35%;
+        white-space: nowrap;
+        border: none;
+        border-radius: 3px; 
+        margin: 0px;
+        height: 20vh; 
+    
+    }
+    .greenbox {
+        background-color: #F9F8F8;
+    }
+
+    .mobile-greenbox {
+        grid-column: 1 / 5;
+        grid-row: 9;
+        background-color: #7A9B76;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .grid-greenbox-10 {
+        grid-column: 1;
+        grid-row: 9;
+        padding-top: 20px;
+        padding-left: 20%;
+        padding-bottom: 20px; 
+        
+    }
+    
+    .grid-greenbox-11 {
+        grid-column: 3;
+        grid-row: 9;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+
+    h4 {
+        font-size: 1.5em;
+    }
+    .summ-text {
+        font-size: 1em; 
+        font-weight: 500;
+    }
+    
+    .summ-text-1 {
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+    
+    .summ-text-2 {
+        font-size: 1.5em;
+        font-weight: 800;
+    }
+
+    .check-the-logo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin:0%; 
+        padding: 10px;
+    }
+
+    #vipps {
+        margin: 0%;
+    }
+    #visa {
+        margin: 0%;
+    }
+    #mastercard {
+        margin: 0%;
+    }
+    #paypal {
+        margin: 0%;
+    }
+
+    .payment-logos {
+        min-width: 100px; 
+    }
+
+    .form-boxes {
+        max-width: 700px;
+        font-size: 1.5em; 
+        font-weight: 300;
+        border: none;
+        
+        background-color:#F9F8F8
+    }
+
+}
