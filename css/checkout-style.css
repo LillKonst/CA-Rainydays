@@ -335,7 +335,11 @@ h3 {
     display: none;
     }
 
-@media (max-width: 600px) {
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+@media (max-width: 800px) {
     main {
         display:grid; 
         grid-template-columns: auto;

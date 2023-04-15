@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rainydays | Shopping bag</title>
+    <meta name="description" content=" Rainydays website. Your shopping bag." />
     <link href="css/shoppingbag-style.css" rel="stylesheet header and footer" />
   </head>
   <body class="relative">
     <main class="grid">
-      <img class="exit" src="images/exit-cross.svg" alt="exit button" />
+      <a href="productlist-all.html"
+        ><img class="exit" src="images/exit-cross.svg" alt="exit button"
+      /></a>
 
       <div class="grid1">
         <h1>Shopping bag</h1>
@@ -48,14 +55,16 @@
         <p class="summ-text summ-text-2">Total: 2000 NOK</p>
       </div>
 
-      <div grid4>
-        <img src="images/image 8.svg" alt="visa logo" />
-        <img src="images/image 6.svg" alt="mastercard logo" />
-        <img src="images/image 5.svg" alt="vipps logo" />
-        <img src="images/image 7.svg" alt="paypal logo" />
+      <div class="grid4">
+        <img class="icons" src="images/image 8.svg" alt="visa logo" />
+        <img class="icons" src="images/image 6.svg" alt="mastercard logo" />
+        <img class="icons" src="images/image 5.svg" alt="vipps logo" />
+        <img class="icons" src="images/image 7.svg" alt="paypal logo" />
       </div>
 
-      <button class="grid5">CHECKOUT</button>
+      <a class="grid5" href="checkout.html"
+        ><button class="cta-button-medium">CHECKOUT</button></a
+      >
     </main>
   </body>
 </html>

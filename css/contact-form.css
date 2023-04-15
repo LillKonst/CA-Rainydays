@@ -11,6 +11,9 @@ html body {
     font-family: "Akshar";
 }
 
+main {
+    padding: 10% 20%;
+}
 
 .relative {
     position: relative;
@@ -131,4 +134,15 @@ textarea {
 
     .hweight {
         font-weight: 800;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    @media (max-width: 800px) {
+        main {
+            padding: 5% 10%;
+        }
     }

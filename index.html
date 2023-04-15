@@ -18,6 +18,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script
+      src="https://kit.fontawesome.com/9376ed08d8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -57,21 +61,24 @@
         /></a>
       </section>
 
-      <label class="hamburgermenu mobile-grid1 fas-fa-bars" for="hamburger-menu"
-        ><i class="fas fa-bars"></i> <input type="checkbox" id="hamburger-menu"
-      /></label>
+      <label class="mobile-grid1" for="hamburger-menu"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <input type="checkbox" id="hamburger-menu" />
 
       <nav class="main-nav menu">
-        <ul class="menu">
+        <ul class="text-link-menu">
           <li><a href="productlist-all.html">ALL</a></li>
           <li><a href="productlist-all.html">WOMEN</a></li>
           <li><a href="productlist-all.html">MEN</a></li>
           <li><a href="productlist-all.html">SALE</a></li>
           <li><a href="#">SUSTAINABILITY</a></li>
+          <li><a class="mob-display" href="contact-form.html">SUPPORT / CONTACT US</a></li>
+          <li><a class="mob-display" href="about.html">ABOUT US</a></li>
         </ul>
       </nav>
 
-      <ul class="top-left-nav top-left-nav-f menu">
+      <ul class="top-left-nav top-left-nav-f menu mobile-display">
         <li><a href="#support">Support</a></li>
         <li><a href="#">Find Store</a></li>
       </ul>
@@ -90,7 +97,7 @@
 
       <section class="slide-container-1">
         <h4>Popular</h4>
-        <nav class="slider">
+        <div class="slider">
           <a class="slide" id="slide1" href="products/product-jenna-jacket.html"
             ><div class="product floated">
               <img
@@ -201,13 +208,7 @@
               <p class="text-aligned style">Forest Fleece</p>
             </div></a
           >
-          <!--
-            <div class="slide-wrap">
-              <a href="slide-1">1</a>
-              <a href="slide-1">2</a>
-              <a href="slide-1">3</a>
-            </div> -->
-        </nav>
+        </div>
       </section>
 
       <section class="positioned-container">
@@ -234,7 +235,7 @@
 
       <section class="slide-container-2">
         <h2>WOMEN</h2>
-        <nav class="slider">
+        <div class="slider">
           <a class="slide" id="slide1" href="products/product-jenna-jacket.html"
             ><div class="product floated">
               <img
@@ -350,12 +351,12 @@
             <a href="slide-1">2</a>
             <a href="slide-1">3</a>
           </div>
-        </nav>
+        </div>
       </section>
 
       <section class="slide-container-3">
         <h2>MEN</h2>
-        <nav class="slider">
+        <div class="slider">
           <a class="slide" id="slide1" href="products/product-jenna-jacket.html"
             ><div class="product floated">
               <img
@@ -471,13 +472,13 @@
             <a href="slide-1">2</a>
             <a href="slide-1">3</a>
           </div>
-        </nav>
+        </div>
       </section>
 
       <section class="positioned-container-some">
         <img
           src="images/istockphoto-1320993309-170667a_cut.jpg"
-          class="spring-collection-image mobile-display"
+          class="some-image some-display-none"
           alt="smiling woman in yellow rainjacket"
         />
         <div class="positioned-container-some-1">
@@ -508,12 +509,12 @@
       <section class="f-g-2 mobile-display">
         <h3 class="footer-text1">Contact us</h3>
         <a class="footer-text2" href="contact-form.html">Message us!</a>
-        <nav class="footer-text2">contact@rainydays.com</nav>
+        <a class="footer-text2">contact@rainydays.com</a>
       </section>
 
       <section class="f-g-3 mobile-display">
         <h3>About us</h3>
-        <p>Our story</p>
+        <a href="/about.html">Our story</a>
         <p>Sustainability</p>
       </section>
 
@@ -535,8 +536,8 @@
       </section>
 
       <section class="f-g-5">
-        <a href="#header"
-          ><img
+        <a href="#header">
+          <img
             src="images/rainydays-logo-cut-slogan.png"
             alt="Rainydays LOGO"
             class="bottom-logo"
