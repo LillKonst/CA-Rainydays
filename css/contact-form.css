@@ -102,6 +102,7 @@ textarea {
     border: none;
     border-radius: 10px; 
     margin: 0px;
+    width: 400px;
     }
 
 
@@ -141,8 +142,29 @@ textarea {
         color: #000000;
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
         main {
             padding: 5% 10%;
         }
+
+        .message-box {
+            height: 200px;
+            width: 300px;  
+        
+        }
+
+        .cta-button {
+            width: 300px;
+            }
+
+        h1 {
+            font-size: 2em; 
+        }
+
+        .p-text {
+            font-size: 1.5em; 
+            font-weight: 500; 
+        }
+
+
     }
