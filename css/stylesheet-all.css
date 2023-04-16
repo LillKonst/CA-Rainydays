@@ -109,8 +109,8 @@ header {
    text-transform: uppercase; 
    font-weight: 400;
    font-size: 1.5em;
-   padding-left: 20px; 
-   padding-right: 20px;
+   padding-left: 15px; 
+   padding-right: 15px;
 }
    
 .mob-display {
@@ -384,6 +384,13 @@ p {
 a {
     text-decoration: none;
     color: #000000;
+}
+
+@media (max-width: 1000px) {
+    .menu a {
+        padding-left: 5px; 
+        padding-right: 5px;
+     }
 }
 
 @media (max-width: 800px) {
@@ -670,6 +677,10 @@ a {
 
     .f-g-4 {
         min-height: 80vh;
+    }
+
+    .top-guide {
+        max-width: 300px;
     }
     
 }
