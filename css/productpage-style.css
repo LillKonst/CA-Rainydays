@@ -247,6 +247,10 @@ h6 {
     grid-column: 1 / 3;
     grid-row: 2;
 }
+.slide-container-1 {
+    grid-column: 1 / 3;
+    grid-row: 6;
+}
 .slider {
     width:100%; 
     display: flex;
@@ -460,4 +464,54 @@ section::after {
             gap: 20px; 
         }
 
+}
+
+@media (max-width: 450px) {
+
+    main {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(8, auto);
+        gap: 20px;
+    }
+
+
+    .product-pic {
+        max-width: 350px;
+        
+    }
+
+    .top-guide {
+        max-width: 330px; 
+       
+    }
+
+    .cta-button { 
+        font-size: 2em; 
+        font-weight: 600;
+        white-space: nowrap;
+    }
+
+    .grid-container-productpage-6 {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    .grid-con-prod-4 {
+        grid-column: 1;  
+    }
+
+    .grid-con-prod-5 {
+        grid-column: 1;
+        grid-row:4;
+    }
+
+    .grid-for-product-info {
+        grid-template-columns: auto;
+    }
+
+    .slide-container-1 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
 }

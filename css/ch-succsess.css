@@ -78,4 +78,15 @@ p {
         font-size: 1em; 
         font-weight: 700;
     }
+
+    .checkout-img {
+        max-width: 600px; 
+    }
+}
+
+@media (max-width: 450px) {
+    .checkout-img {
+        max-width: 300px; 
+    }
+}
 }

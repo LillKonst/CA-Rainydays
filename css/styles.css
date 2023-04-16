@@ -543,3 +543,11 @@ section::after {
     }
 
 }
+
+
+@media (max-width: 450px) {
+    main {
+        grid-template-columns: 1fr;
+        padding: 2% 5%;
+    }
+}

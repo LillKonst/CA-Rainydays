@@ -400,15 +400,13 @@ h3 {
     .cta-button {
         display: flex; 
         background-color: #CE8147;
-        font-size: 2em; 
+        font-size: 1.5em; 
         font-weight: 600;
-        padding-left: 35%;
         white-space: nowrap;
         border: none;
         border-radius: 3px; 
         margin: 0px;
         height: 20vh; 
-    
     }
     .greenbox {
         background-color: #F9F8F8;
@@ -429,7 +427,6 @@ h3 {
         padding-top: 20px;
         padding-left: 20%;
         padding-bottom: 20px; 
-        
     }
     
     .grid-greenbox-11 {
@@ -496,8 +493,38 @@ h3 {
         font-size: 1.5em; 
         font-weight: 300;
         border: none;
-        
         background-color:#F9F8F8
     }
 
+}
+
+@media (max-width: 450px) {
+    main {
+        padding: 2% 5%;
+    }
+    .grid-mobile-8 {
+        flex-wrap: wrap;
+    }
+
+    .top-guide {
+        max-width: 300px; 
+    }
+    .summ-text {
+        font-size: 1em; 
+        font-weight: 400;
+    }
+    
+    .summ-text-1 {
+        font-size: 1em;
+        font-weight: 400;
+    }
+    
+    .summ-text-2 {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .grid-greenbox-11 {
+        grid-column: 2 / 3;
+    }
 }
