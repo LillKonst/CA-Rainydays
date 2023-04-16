@@ -522,7 +522,7 @@ a {
         grid-column: 1;
         grid-row: 1;
         background-color: #7A9B76;
-        min-height: 100vh;
+        min-height: 20vh;
         display: flex;
         justify-content: space-evenly;
         align-items: center;

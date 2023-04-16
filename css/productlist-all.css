@@ -244,3 +244,9 @@ a {
     }
 
 }
+
+@media (max-width: 450px) {
+    .top-guide {
+        max-width: 340px;
+    }
+}
