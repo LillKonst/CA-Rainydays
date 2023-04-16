@@ -436,8 +436,8 @@ a {
         align-items: flex-end;
         flex-wrap: nowrap;
     }
-    .logo img {
-        width: 100px;
+    .logo-img {
+        width: 200px;
     
     }
     
@@ -662,6 +662,13 @@ a {
     
 }
 
+@media (max-width:600px) {
+    .logo-img {
+        width: 150px;
+}
+
+}
+
 @media (max-width: 450px) {
     footer {
         padding: 2% 5%;
@@ -682,5 +689,9 @@ a {
     .top-guide {
         max-width: 300px;
     }
-    
+
+    .logo-img {
+        margin: 0px;
+        width: 100px;
+    }
 }
