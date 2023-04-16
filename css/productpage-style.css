@@ -164,6 +164,8 @@ main {
     height: 40px;
     border: none; 
     margin: 0px;
+    font-size: 1em;
+    padding-top: 15%;
 }
 
 .color-btn-1{
@@ -227,7 +229,7 @@ h4 {
     padding: 50px; 
 }
 
-h6 {
+h5, h6 {
     font-size: 2em;
     display: flex;
 }
