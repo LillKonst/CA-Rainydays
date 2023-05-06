@@ -228,7 +228,7 @@ footer {
     display: block;
 }
 
-footer h3, .footer-text1 {
+footer h3, footer h2, .footer-text1 {
     font-size: 2em;
     font-weight: 600;
 }
